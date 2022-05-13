@@ -37,7 +37,7 @@ const {loading} = this.props;
 
     return (
       <Fragment>
-          <Link to='/' className='btn btn-light'>Back to Home Page<Link />
+          <Link to='/' className='btn btn-light'>Back to Home Page</Link>
           Hireable: {' '}
           {hireable ? <i className='fas fa-check text-success'/> : <i className='fas fa-times-circle text-danger'/>}
           <div className='card grid-2'>
